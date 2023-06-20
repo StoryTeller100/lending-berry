@@ -1,0 +1,306 @@
+@media (max-width: 1299px) {
+  .works__img {
+    display: none;
+  }
+  .works {
+    background-color: #121202;
+    background: linear-gradient(to bottom, transparent 65%, #121202 65%);
+  }
+  .works__carousel {
+    display: block;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+  }
+  .works__nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 100%;
+  }
+
+  .camera__video {
+    width: 100%;
+    margin-top: -255px;
+  }
+  .wrapper__header {
+    display: none;
+  }
+  .button-header {
+    display: none;
+  }
+  .container {
+    padding: 0 18px;
+    margin: 0 auto;
+
+    max-width: 100%;
+  }
+  /* SECTION 1 =================== */
+  .title {
+    line-height: 31px;
+    padding-top: 85px;
+  }
+  .about__btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__button {
+    margin: 0 0 26px 0;
+    width: 100%;
+  }
+
+  /* SECTION 2 ======================= */
+  .projects__menu {
+    display: none;
+  }
+  .sochi_thieves {
+    display: none;
+  }
+  .rostov-on-don-admiral {
+    display: none;
+  }
+  .projects__subtitle {
+    margin: 36px 0 22px;
+    text-align-last: center;
+
+    display: flex;
+    justify-content: center;
+  }
+  .projects__service-list {
+    padding: 0;
+  }
+  .projects__service-list-text {
+    text-align: center;
+  }
+
+  .projects__img-media {
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    margin-bottom: 37px;
+  }
+
+  .projects__service-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .projects__slider {
+    display: none;
+  }
+
+  .projects__content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  /* SECTION 3 ================*/
+  .camera {
+    background: #121202;
+  }
+  .feedbac {
+    background: #121202;
+    margin-bottom: 83px;
+  }
+
+  .camera__text {
+    padding-bottom: 61px;
+    margin-bottom: 0;
+
+    color: #fff;
+  }
+
+  .projects__icon {
+    margin-top: 20px;
+    padding-bottom: 300px;
+  }
+
+  /* форма =====*/
+  .feedbac__form-name {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+  .feedbac__bttn {
+    order: 2;
+  }
+  .feedbac__contact {
+    order: 2;
+  }
+  .questions__form-bloc {
+    width: 95%;
+  }
+  .feedbac__input {
+    width: 100%;
+    background: #121202;
+    color: #fff;
+
+    border-bottom: 1px solid #959595;
+    margin-bottom: 63px;
+  }
+
+  .feedbac__label {
+    width: 100%;
+    background: #121202;
+    color: #959595;
+  }
+
+  .feedbac__checkbox {
+    color: #fff;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .feedbac__bttn {
+    transform: translateY(25px);
+  }
+  .button.bttn {
+    width: 100%;
+  }
+
+  /* SECTION 4 =====================*/
+  .repair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .repeat {
+    margin-bottom: 200px;
+  }
+  .support {
+    display: none;
+  }
+  .icon-suppor {
+    display: none;
+  }
+
+  /* section 5  ==============*/
+
+  .container.works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-works,
+  .shadow.ww {
+    background-color: #fff;
+  }
+  .subtitle.works {
+    text-align: center;
+  }
+  .works__item-design {
+    display: none;
+  }
+  .works__img-btm,
+  .works__img-column2,
+  .works__img-column1 {
+    display: none;
+  }
+  .works__media-pl {
+    display: inline;
+  }
+  .works__img-media {
+    display: inline;
+    position: relative;
+    z-index: 0;
+  }
+  .works__media-pl--pl11 {
+    display: inline;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -665px;
+    z-index: 1;
+  }
+  .works__media-pl--pl22 {
+    display: inline;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -105px;
+    z-index: 1;
+  }
+
+  /* section 6 ================== */
+  .reviews {
+    display: none;
+  }
+
+  /* section 7 =====================*/
+
+  .questions {
+    background: #121202;
+  }
+  .questions-style {
+    max-width: 100%;
+  }
+  .support__input-style {
+    width: 100%;
+  }
+  input::placeholder {
+    color: #fff;
+  }
+  .questions__form {
+    margin-top: -121px;
+  }
+  .questions__form-subtitle {
+    margin-top: 65px;
+  }
+  .questions__form-contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .support__btn.questions-btn {
+    margin-bottom: 30px;
+    margin-top: -50;
+  }
+
+  /* section 8 ================== */
+  .contacts__shadow {
+    background: #121202;
+  }
+  .contacts__bloc-gis {
+    background-size: cover;
+    margin-top: 280px;
+  }
+
+  .contacts__bloc-title {
+    order: 1;
+    text-align: center;
+  }
+
+  .contacts__bloc-icon {
+    order: 2;
+  }
+
+  .footer {
+    display: none;
+  }
+  .projects__carousel {
+    display: block;
+    position: relative;
+  }
+  .pl {
+    position: absolute;
+    top: 47%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    width: 100%;
+  }
+}
